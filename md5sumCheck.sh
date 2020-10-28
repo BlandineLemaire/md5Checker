@@ -6,8 +6,8 @@
 
 #-------------------------------------------------------------------------------
 #                            NOTE
-# If you are using this script on OSX device, just change 'md5sum' on line 13
-# and change it with 'md5 -r'
+# If you are using this script on OSX device, just change 
+# 'md5sum' with 'md5 -r' on line 13
 #-------------------------------------------------------------------------------
 # calculate the md5sum of the file and store it in the valuemd5 var
 valuemd5=$(md5sum "$1" | cut -d ' ' -f 1)
